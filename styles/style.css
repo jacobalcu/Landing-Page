@@ -1,0 +1,22 @@
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+}
+
+.body {
+    height: 300px;
+}
+
+.one {
+    background-color: #1f2937;
+}
+
+.three {
+    background-color: #e5e7eb;
+}
