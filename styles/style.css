@@ -45,8 +45,40 @@ a {
 
 .one {
     background-color: #1f2937;
+    display: flex;
+    gap: 32px;
+    padding: 32px 40px;
+}
+
+.one-content {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+img {
+    height: auto;
+    width: 250px;
 }
 
 .three {
     background-color: #e5e7eb;
+}
+
+h1 {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+button {
+    width: 100px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 8px;
+    border-radius: 8px;
+    border-style: none;
+    height: auto;
 }
