@@ -40,14 +40,14 @@ a {
 }
 
 .body {
-    height: 300px;
+    padding: 32px 40px;
 }
 
 .one {
     background-color: #1f2937;
     display: flex;
     gap: 32px;
-    padding: 32px 40px;
+    
 }
 
 .one-content {
@@ -58,7 +58,7 @@ a {
     font-size: 18px;
 }
 
-img {
+.one img {
     height: auto;
     width: 250px;
 }
@@ -81,4 +81,27 @@ button {
     border-radius: 8px;
     border-style: none;
     height: auto;
+}
+
+.two {
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.container-box {
+    flex: 0 0 200px;
+}
+
+.two img {
+    height: auto;
+    width: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 5%;
+    box-shadow: 10px 10px lightblue;
 }
