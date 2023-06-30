@@ -40,7 +40,7 @@ a {
 
 .header,
 .footer {
-    height: 100px;
+    padding: 24px;
     background-color: #1f2937;
 }
 
@@ -185,4 +185,11 @@ button {
 
 .four button {
     border: 2px solid #f9faf8;
+}
+
+/* footer */
+
+.footer {
+    color: #f9faf8;
+    text-align: center;
 }
