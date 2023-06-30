@@ -47,15 +47,30 @@ a {
     background-color: #1f2937;
     display: flex;
     gap: 32px;
+    justify-content: space-around;
     
+}
+
+.one > div {
+    margin: 0;
 }
 
 .one-content {
     display: flex;
     flex-direction: column;
-    flex: auto;
+    /* flex: auto; */
     color: #e5e7eb;
     font-size: 18px;
+    margin: 0;
+    padding: 0 8px;
+    gap: 12px;
+    margin-right: auto;
+}
+
+.one-content h1,
+.one-content p {
+    padding: 0;
+    margin: 0;
 }
 
 .one img {
@@ -73,14 +88,16 @@ h1 {
     font-size: 48px;
 }
 
-button {
+.one button {
+    text-align: center;
     width: 100px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
     background-color: #3882f6;
     color: #f9faf8;
-    margin: 8px;
-    border-radius: 8px;
-    border-style: none;
-    height: auto;
+    font-weight: bold;
 }
 
 .two {
@@ -104,4 +121,14 @@ button {
     border: 4px solid #3882f6;
     border-radius: 5%;
     box-shadow: 10px 10px lightblue;
+}
+
+.two > h2 {
+    text-align: center;
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 24px;
+    
 }
